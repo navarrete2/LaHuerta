@@ -1,0 +1,401 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F958D8C2B54ABA8006057AB /* LaHuertaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F958D8B2B54ABA8006057AB /* LaHuertaApp.swift */; };
+		4F958D8E2B54ABA8006057AB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F958D8D2B54ABA8006057AB /* ContentView.swift */; };
+		4F958D902B54ABAA006057AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F958D8F2B54ABAA006057AB /* Assets.xcassets */; };
+		4F958D932B54ABAA006057AB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F958D922B54ABAA006057AB /* Preview Assets.xcassets */; };
+		4F958D9D2B54AC72006057AB /* PLant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F958D9C2B54AC72006057AB /* PLant.swift */; };
+		4F958D9F2B54ACCE006057AB /* GardenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F958D9E2B54ACCE006057AB /* GardenViewModel.swift */; };
+		4F958DA12B54AD32006057AB /* AddPlantView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F958DA02B54AD32006057AB /* AddPlantView.swift */; };
+		4F958DA32B54AD74006057AB /* GardenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F958DA22B54AD74006057AB /* GardenView.swift */; };
+		4F958DA52B54ADAE006057AB /* PLantDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F958DA42B54ADAE006057AB /* PLantDetailView.swift */; };
+		4F958DA72B54ADEA006057AB /* PlantListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F958DA62B54ADEA006057AB /* PlantListView.swift */; };
+		4F958DA92B54AE23006057AB /* PlantRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F958DA82B54AE23006057AB /* PlantRowView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4F958D882B54ABA8006057AB /* LaHuerta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LaHuerta.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F958D8B2B54ABA8006057AB /* LaHuertaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaHuertaApp.swift; sourceTree = "<group>"; };
+		4F958D8D2B54ABA8006057AB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4F958D8F2B54ABAA006057AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4F958D922B54ABAA006057AB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4F958D9C2B54AC72006057AB /* PLant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PLant.swift; sourceTree = "<group>"; };
+		4F958D9E2B54ACCE006057AB /* GardenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GardenViewModel.swift; sourceTree = "<group>"; };
+		4F958DA02B54AD32006057AB /* AddPlantView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPlantView.swift; sourceTree = "<group>"; };
+		4F958DA22B54AD74006057AB /* GardenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GardenView.swift; sourceTree = "<group>"; };
+		4F958DA42B54ADAE006057AB /* PLantDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PLantDetailView.swift; sourceTree = "<group>"; };
+		4F958DA62B54ADEA006057AB /* PlantListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantListView.swift; sourceTree = "<group>"; };
+		4F958DA82B54AE23006057AB /* PlantRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantRowView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4F958D852B54ABA8006057AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4F958D7F2B54ABA8006057AB = {
+			isa = PBXGroup;
+			children = (
+				4F958D8A2B54ABA8006057AB /* LaHuerta */,
+				4F958D892B54ABA8006057AB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4F958D892B54ABA8006057AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4F958D882B54ABA8006057AB /* LaHuerta.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4F958D8A2B54ABA8006057AB /* LaHuerta */ = {
+			isa = PBXGroup;
+			children = (
+				4F958D9B2B54AC42006057AB /* Views */,
+				4F958D9A2B54AC05006057AB /* ViewModel */,
+				4F958D992B54ABF5006057AB /* Model */,
+				4F958D8B2B54ABA8006057AB /* LaHuertaApp.swift */,
+				4F958D8D2B54ABA8006057AB /* ContentView.swift */,
+				4F958D8F2B54ABAA006057AB /* Assets.xcassets */,
+				4F958D912B54ABAA006057AB /* Preview Content */,
+			);
+			path = LaHuerta;
+			sourceTree = "<group>";
+		};
+		4F958D912B54ABAA006057AB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4F958D922B54ABAA006057AB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4F958D992B54ABF5006057AB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4F958D9C2B54AC72006057AB /* PLant.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4F958D9A2B54AC05006057AB /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				4F958D9E2B54ACCE006057AB /* GardenViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		4F958D9B2B54AC42006057AB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4F958DA02B54AD32006057AB /* AddPlantView.swift */,
+				4F958DA22B54AD74006057AB /* GardenView.swift */,
+				4F958DA42B54ADAE006057AB /* PLantDetailView.swift */,
+				4F958DA62B54ADEA006057AB /* PlantListView.swift */,
+				4F958DA82B54AE23006057AB /* PlantRowView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4F958D872B54ABA8006057AB /* LaHuerta */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F958D962B54ABAA006057AB /* Build configuration list for PBXNativeTarget "LaHuerta" */;
+			buildPhases = (
+				4F958D842B54ABA8006057AB /* Sources */,
+				4F958D852B54ABA8006057AB /* Frameworks */,
+				4F958D862B54ABA8006057AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LaHuerta;
+			productName = LaHuerta;
+			productReference = 4F958D882B54ABA8006057AB /* LaHuerta.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4F958D802B54ABA8006057AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					4F958D872B54ABA8006057AB = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 4F958D832B54ABA8006057AB /* Build configuration list for PBXProject "LaHuerta" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4F958D7F2B54ABA8006057AB;
+			productRefGroup = 4F958D892B54ABA8006057AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4F958D872B54ABA8006057AB /* LaHuerta */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4F958D862B54ABA8006057AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F958D932B54ABAA006057AB /* Preview Assets.xcassets in Resources */,
+				4F958D902B54ABAA006057AB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4F958D842B54ABA8006057AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F958D9D2B54AC72006057AB /* PLant.swift in Sources */,
+				4F958DA52B54ADAE006057AB /* PLantDetailView.swift in Sources */,
+				4F958DA32B54AD74006057AB /* GardenView.swift in Sources */,
+				4F958D9F2B54ACCE006057AB /* GardenViewModel.swift in Sources */,
+				4F958DA72B54ADEA006057AB /* PlantListView.swift in Sources */,
+				4F958D8E2B54ABA8006057AB /* ContentView.swift in Sources */,
+				4F958DA92B54AE23006057AB /* PlantRowView.swift in Sources */,
+				4F958D8C2B54ABA8006057AB /* LaHuertaApp.swift in Sources */,
+				4F958DA12B54AD32006057AB /* AddPlantView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4F958D942B54ABAA006057AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4F958D952B54ABAA006057AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4F958D972B54ABAA006057AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LaHuerta/Preview Content\"";
+				DEVELOPMENT_TEAM = WS8A3J8JU9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sites.google-view-m4gu4ldeveloper.LaHuerta";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4F958D982B54ABAA006057AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LaHuerta/Preview Content\"";
+				DEVELOPMENT_TEAM = WS8A3J8JU9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sites.google-view-m4gu4ldeveloper.LaHuerta";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4F958D832B54ABA8006057AB /* Build configuration list for PBXProject "LaHuerta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F958D942B54ABAA006057AB /* Debug */,
+				4F958D952B54ABAA006057AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F958D962B54ABAA006057AB /* Build configuration list for PBXNativeTarget "LaHuerta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F958D972B54ABAA006057AB /* Debug */,
+				4F958D982B54ABAA006057AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4F958D802B54ABA8006057AB /* Project object */;
+}
