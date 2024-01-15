@@ -23,7 +23,7 @@ struct AddPlantView: View {
     @State private var selectedImageIndex = 0
 
     // Array de nombres de imágenes disponibles
-    let imageNames = ["Tomate", "pimiento", "zanahoria"]  // Agrega aquí los nombres de tus imágenes
+    let imageNames = ["Tomate", "pimiento", "zanahoria","ajo", "cebolla"]  // Agrega aquí los nombres de tus imágenes
 
     var body: some View {
         Form {
